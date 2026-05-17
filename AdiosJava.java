@@ -15,6 +15,17 @@ public class AdiosJava{
         System.out.println("****************************************");
         int resta = restar(numero1, numero2);
         System.out.println("La resta es: " + resta);
+
+        //Clase persona
+        Persona persona1;
+        persona1 = new Persona("Alejandro", "Gomez", "Rodriguez");
+        persona1.setEdad(21);
+        persona1.setGenero('M');
+        persona1.setTelefono("242 543 78 46");
+        persona1.setDireccion("Avenida Juarez #42");
+
+        System.out.println("Datos de la persona " + persona1.toString());
+
     }   
 
     public static int restar (int n1, int n2){
