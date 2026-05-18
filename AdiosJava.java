@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class AdiosJava{
 
+    public static int multiplicar(int num1, int num2){
+        return num1 * num2;
+    }
+
     public static void main(String[] args) {
         int numero1, numero2;
         Scanner scanner = new Scanner(System.in);
