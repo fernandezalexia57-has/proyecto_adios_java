@@ -6,6 +6,10 @@ public class AdiosJava{
         return num1 * num2;
     }
 
+    public static double dividir(double num1, double num2){
+        return num1/num2;
+    }
+
     public static void main(String[] args) {
         int numero1, numero2;
         Scanner scanner = new Scanner(System.in);
